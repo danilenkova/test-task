@@ -1,0 +1,12 @@
+.productBlock {
+  margin: 0 auto;
+  padding: 40px;
+  width: 420px;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+  max-width: 100%;
+}
